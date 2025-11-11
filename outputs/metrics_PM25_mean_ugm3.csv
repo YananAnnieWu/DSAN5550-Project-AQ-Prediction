@@ -1,0 +1,8 @@
+model,rmse,mae,r2,best_params
+SVR,2.343581208222847,1.638010759446683,0.44186374318867006,"{""model__C"": 10, ""model__gamma"": ""scale"", ""model__kernel"": ""linear""}"
+Ridge,2.4524624317294856,1.7349248883769255,0.3887977447390166,"{""model__alpha"": 10.0}"
+Lasso,2.4571636333543787,1.727153286826471,0.38645223351813285,"{""model__alpha"": 0.1}"
+ElasticNet,2.4575408249140613,1.7193296686551065,0.3862638514352247,"{""model__alpha"": 0.05994842503189409, ""model__l1_ratio"": 0.9}"
+LinearRegression,2.467615615114756,1.7430401554534196,0.38122146341581775,{}
+RandomForest,2.5824454073897427,1.8855324557370237,0.32229214383981897,"{""model__max_depth"": 18, ""model__max_features"": 0.5, ""model__min_samples_leaf"": 2}"
+XGBoost,2.700164842967218,2.003957095649235,0.25909798138407336,"{""model__colsample_bytree"": 0.8, ""model__learning_rate"": 0.05, ""model__max_depth"": 4, ""model__n_estimators"": 300, ""model__subsample"": 0.8}"

@@ -1,0 +1,2 @@
+model,rmse,mae,r2,window,n_train_seq,n_val_seq,n_test_seq,predictors
+LSTM,4.688958920100978,3.7799277,0.47858721017837524,7,674,139,140,32

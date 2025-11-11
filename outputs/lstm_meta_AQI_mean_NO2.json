@@ -1,0 +1,43 @@
+{
+  "target": "AQI_mean_NO2",
+  "predictor_columns": [
+    "retail_recreation",
+    "grocery_pharmacy",
+    "parks",
+    "transit",
+    "workplaces",
+    "residential",
+    "TMAX_C",
+    "TMIN_C",
+    "TAVG_C",
+    "PRCP_mm",
+    "AWND",
+    "WT01",
+    "WT02",
+    "WT08",
+    "AQI_mean_NO2",
+    "month_2",
+    "month_3",
+    "month_4",
+    "month_5",
+    "month_6",
+    "month_7",
+    "month_8",
+    "month_9",
+    "month_10",
+    "month_11",
+    "month_12",
+    "dow_1",
+    "dow_2",
+    "dow_3",
+    "dow_4",
+    "dow_5",
+    "dow_6"
+  ],
+  "window": 7,
+  "splits": {
+    "train_end": 681,
+    "val_end": 827,
+    "test_start": 827
+  }
+}
