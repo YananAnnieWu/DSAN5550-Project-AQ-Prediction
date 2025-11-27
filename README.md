@@ -10,6 +10,7 @@ The goal is to build short-term machine learning models that capture rapid chang
 - **Mobility:** Google COVID-19 Community Mobility Reports (Los Angeles County, 2020-2022)
 
 ## Project Structure
+```{text}
 DSAN5550-Project-AQ-Prediction/
 │
 ├── data/
@@ -33,41 +34,42 @@ DSAN5550-Project-AQ-Prediction/
 │   └── *.png                # Plots
 │
 └── README.md
+```
 
 ## Methods
 1. All models are trained with:
 
-- Time-series aware train/test split
+    - Time-series aware train/test split
 
-- 10-fold TimeSeriesSplit cross-validation
+    - 10-fold TimeSeriesSplit cross-validation
 
-- Hyperparameter tuning via GridSearchCV
+    - Hyperparameter tuning via GridSearchCV
 
-- Standardized numeric features via ColumnTransformer
+    - Standardized numeric features via ColumnTransformer
 
 
 2. Models implemented:
 
-- Linear Regression
+    - Linear Regression
 
-- Ridge
+    - Ridge
 
-- Lasso
+    - Lasso
 
-- ElasticNet
+    - ElasticNet
 
-- Random Forest Regressor
+    - Random Forest Regressor
 
-- XGBoost Regressor
+    - XGBoost Regressor
 
-- Support Vector Regression (SVR)
+    - Support Vector Regression (SVR)
 
-- LSTM
+    - LSTM
 
 
 3. Carbon Footprint Tracking:
 
-- All experiments (tabular models and LSTM) are instrumented using CodeCarbon.
+    - All experiments (tabular models and LSTM) are instrumented using CodeCarbon.
 
 ## Author
 Yanan (Annie) Wu - Georgetown University  
