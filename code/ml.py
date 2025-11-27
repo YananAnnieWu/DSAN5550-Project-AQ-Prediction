@@ -37,7 +37,7 @@ random.seed(SEED)
 os.environ["PYTHONHASHSEED"] = str(SEED)
 
 DATE_COL = "date"
-DEFAULT_TARGET = "AQI_mean_NO2"
+DEFAULT_TARGET = "NO2_mean_ppb"
 
 @dataclass
 class ModelResult:
